@@ -24,3 +24,10 @@ a {
     background: black;
   }
 }
+
+.navbBarContainer{
+  position: absolute;
+  width: 200px;
+  height: 100vh;
+  left: 0;
+}
