@@ -1,8 +1,38 @@
+.hamburgerSlider{
+  position: absolute;
+  width: 200px;
+  left: -200px;
+  top: 0;
+  height: 100vh;
+  background: #1A1C1E;
+}
 
-.navBarContainer{
-    position: absolute;
-    width: 200px;
-    height: 100vh;
-    left: 0;
-    background: black;
-  }
+.opened{
+  left: 0;
+}
+.navLinks{
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.navLinks > li{
+  list-style: none;
+  padding: 10px 0 10px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navLinks > li:hover{
+  background: #313334;
+  border-radius: 10px;
+}
+
+.navBarContentContainer{
+  padding: 50px 20px 20px 20px;
+}
+
+.navBarContentContainer > h3 {
+  margin: 10px 0 0 0;
+}
+.hamburgerButton{
+  position: absolute;
+  margin: 10px;
+}
