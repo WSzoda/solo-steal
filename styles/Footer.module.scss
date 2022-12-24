@@ -1,0 +1,28 @@
+.footerContainer{
+    width: 100%;
+    margin: auto;
+    background-color: #1A1C1E;
+    padding: 10px 0 1px 0;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+.column{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+.copyright{
+    text-align: center;
+}
